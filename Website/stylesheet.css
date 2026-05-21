@@ -1,0 +1,89 @@
+/* All the code in body will worl for structure in all page. */
+html, body {
+  font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-font {
+    font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+ /*font-family: "Bradley Hand ITC", "Comic Sans MS", cursive;*/
+.handWritten-font {
+  font-family: "Bradley Hand ITC", cursive;
+  font-size: 24px;
+  color: #404040;
+}
+
+.header-bar {
+  background-color: #4A4A4A; 
+  height: 120px;
+  /*used to align the logo*/
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 15px #0a0a0a;
+  position: relative;
+  z-index: 10;
+}
+
+.subHeader-bar {
+  background-color: #4A4A4A; 
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.canvasArea {
+  flex: 1;
+  background-color: #FFFFFF;
+}
+
+.qoute-bar {
+  background-color: #D8BFD8;
+  height: 100px;
+}
+
+.quickLinks-bar {
+  background-color: #E8F8E8;
+  height: 320px;
+}
+
+.footer-bar {
+  background-color: #4A4A4A;
+  height: 120px;
+  box-shadow: 0 4px 20px #0a0a0a;
+  position: relative;
+  z-index: 10;
+}
+
+.navigation-box {
+  display: inline-block;  
+  color: #FFFFFF;              /* Text color */
+  text-decoration: none;       /* Removes the default underline link look */
+  padding: 10px 0px;          /* Creates space inside the box around the text */
+  margin: 0 10px;              /* Creates the separation space BETWEEN the boxes */
+  border: 2px solid #FFFFFF;   /* The white outline border */
+  border-radius: 6px;          /* Curvatures the borders slightly */
+  font-family: "Aptos", sans-serif;
+  transition: all 0.1s ease;   /* Makes the glow fade in smoothly instead of snapping */
+  width: 140px;                /* Forces every single box to be exactly 140 pixels wide */
+  text-align: center;
+}
+
+.navigation-box:hover {
+  box-shadow: 0 0 10px #FFFFFF;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: flex-end; /* This pushes all the boxes to the right side */
+  padding-right: 60px;   
+  width: 100%;    /* This keeps them from hugging the absolute edge */
+}
