@@ -1,0 +1,28 @@
+# Jekyll configuration for GitHub Pages
+
+# Site settings
+title: My Website
+baseurl: ""       # e.g. "/my-repo" if not using a custom domain
+url: ""           # e.g. "https://username.github.io"
+
+# Tell Jekyll where the source files live
+source: .
+
+# Remap the root index to your homepage file
+include:
+  - Website
+
+# Custom collections / defaults (optional)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null   # remove if you use Jekyll layouts
+
+# Exclude files you don't want published
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
