@@ -2,8 +2,8 @@
 
 # Site settings
 title: My Website
-baseurl: ""       # e.g. "/my-repo" if not using a custom domain
-url: ""           # e.g. "https://username.github.io"
+baseurl: "/SweetDelights"       # e.g. "/my-repo" if not using a custom domain
+url: "https://purvarajesh0069-source.github.io"           # e.g. "https://purvarajesh0069-source.github.io"
 
 # Tell Jekyll where the source files live
 source: .
