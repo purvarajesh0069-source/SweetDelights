@@ -1,5 +1,5 @@
-const buttons = document.querySelectorAll('.productsNavigation-box');
-const cards = document.querySelectorAll('.product-card');
+const buttons = document.querySelectorAll('.productsNavigation-box','blogNavigation-box');
+const cards = document.querySelectorAll('.product-card','.blog-card');
 
 buttons.forEach(button => {
   button.addEventListener('click', (e) => {
@@ -9,7 +9,7 @@ buttons.forEach(button => {
 
     cards.forEach(card => {
       const cardCategory = card.getAttribute('data-category');
-      
+
       if (targetCategory === 'all' || cardCategory === targetCategory) {
         card.style.display = 'block';
       } else {

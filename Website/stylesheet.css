@@ -147,10 +147,71 @@ html, body {
   display: block;
 }
 
+.product-description { 
+  height: 60px;               
+  padding: 0 15px 15px 15px;  
+  overflow-y: auto;            
+  font-family: "Aptos", sans-serif;
+  font-size: 18px;
+  color: #0a0a0a;           
+  text-align: center;        
+  scrollbar-width: thin;
+}
+
+.blogNavigation-Container {
+  display: flex;
+  justify-content: center; 
+  width: 100%;    
+}
+
+.blogNavigation-box {
+  display: inline-block;  
+  color: #FFFFFF;            
+  text-decoration: none;     
+  padding: 10px 0px;        
+  margin: 0 10px;             
+  border: 2px solid #D8BFD8;  
+  background-color: #D8BFD8;
+  border-radius: 75px;         
+  font-family: "Aptos", sans-serif;
+  transition: all 0.1s ease;   
+  width: 200px;
+  height: 40px;               
+  font-size: large;
+  display: inline-flex;       
+  justify-content: center;    
+  align-items: center;
+}
+
+.blogNavigation-box:hover {
+  box-shadow: 0 0 10px #D8BFD8
+}
+
+
+.blog-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  flex-wrap: wrap;        
+  gap: 30px;                
+  padding: 40px 20px;
+  width: 100%;
+}
+
+
+.blog-card {
+  width: 350px;
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  display: block;
+}
 
 .img-placeholder {
   background-color: #E8F8E8;
-  height: 250px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,4 +226,15 @@ html, body {
   font-size: 18px;
   color: #0a0a0a;
   text-align: center;
+}
+
+.blog-description { 
+  height: 60px;               
+  padding: 0 15px 15px 15px;  
+  overflow-y: auto;            
+  font-family: "Aptos", sans-serif;
+  font-size: 18px;
+  color: #0a0a0a;           
+  text-align: center;        
+  scrollbar-width: thin;
 }
