@@ -65,15 +65,15 @@ html, body {
 
 .navigation-box {
   display: inline-block;  
-  color: #FFFFFF;              /* Text color */
-  text-decoration: none;       /* Removes the default underline link look */
-  padding: 10px 0px;          /* Creates space inside the box around the text */
-  margin: 0 10px;              /* Creates the separation space BETWEEN the boxes */
-  border: 2px solid #FFFFFF;   /* The white outline border */
-  border-radius: 6px;          /* Curvatures the borders slightly */
+  color: #FFFFFF;            
+  text-decoration: none;     
+  padding: 10px 0px;        
+  margin: 0 10px;             
+  border: 2px solid #FFFFFF;  
+  border-radius: 6px;         
   font-family: "Aptos", sans-serif;
-  transition: all 0.1s ease;   /* Makes the glow fade in smoothly instead of snapping */
-  width: 140px;                /* Forces every single box to be exactly 140 pixels wide */
+  transition: all 0.1s ease;   
+  width: 140px;               
   text-align: center;
 }
 
@@ -83,7 +83,86 @@ html, body {
 
 .navigation-container {
   display: flex;
-  justify-content: flex-end; /* This pushes all the boxes to the right side */
+  justify-content: flex-end; 
   padding-right: 60px;   
-  width: 100%;    /* This keeps them from hugging the absolute edge */
+  width: 100%;    
+}
+
+.subHeader-font {
+    font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+}
+
+.productsNavigation-Container {
+  display: flex;
+  justify-content: center; 
+  width: 100%;    
+}
+
+.productsNavigation-box {
+  display: inline-block;  
+  color: #FFFFFF;            
+  text-decoration: none;     
+  padding: 10px 0px;        
+  margin: 0 10px;             
+  border: 2px solid #D8BFD8;  
+  background-color: #D8BFD8;
+  border-radius: 75px;         
+  font-family: "Aptos", sans-serif;
+  transition: all 0.1s ease;   
+  width: 200px;
+  height: 40px;               
+  font-size: large;
+  display: inline-flex;       
+  justify-content: center;    
+  align-items: center;
+}
+
+.productsNavigation-box:hover {
+  box-shadow: 0 0 10px #D8BFD8
+}
+
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  flex-wrap: wrap;        
+  gap: 30px;                
+  padding: 40px 20px;
+  width: 100%;
+}
+
+
+.product-card {
+  width: 350px;
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  display: block;
+}
+
+
+.img-placeholder {
+  background-color: #E8F8E8;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Aptos", sans-serif;
+  color: #0a0a0a;
+}
+
+
+.card-text {
+  padding: 20px;
+  font-family: "Aptos", sans-serif;
+  font-size: 18px;
+  color: #0a0a0a;
+  text-align: center;
 }

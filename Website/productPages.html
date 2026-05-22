@@ -5,7 +5,7 @@
 </head>    
     <body>
         <div class="header-bar">
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="homePage.html"><img src="..\Images\logosvg.svg" width="90px" height="90px"></a>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="homePage.html"><img src="Images\logosvg.svg" width="90px" height="90px"></a>
            <span class="logo-font"> 
             <h1>&nbsp; Sweet Delights</h1>
            </span>
@@ -18,19 +18,53 @@
 
         </div>
 
-         <div class="subHeader-bar">
-
+        <div class="subHeader-bar">
+            <span class="subHeader-font">
+                <h1>Products</h1>
+            </span>
+             
         </div>
 
         <div class="canvasArea">
-            <span class="handWritten-font">
-              <h1 style="padding-left: 120px;">Baking Happiness,<br> One Treat at a Time </h1>
-            </span>
+            
+            <br>
+            <nav class="productsNavigation-Container">
+                <a href="#" class="productsNavigation-box" data-target="breads">Breads</a>
+                <a href="#" class="productsNavigation-box" data-target="cakes">Cakes</a>
+                <a href="#" class="productsNavigation-box" data-target="cookies">Cookies</a>
+                <a href="#" class="productsNavigation-box" data-target="pastries">Pastries</a>
+                <a href="#" class="productsNavigation-box" data-target="all">All</a>
+            </nav>
+            <br>
+            <div class="product-grid">
+  
+                <div class="product-card" data-category="breads">
+                    <div class="img-placeholder"><img src="Images/fruit bread.png"></div>
+                    <div class="card-text">Fruit Bread</div>
+                </div>
+
+                <div class="product-card" data-category="cakes">
+                    <div class="img-placeholder">Img</div>
+                    <div class="card-text">Chocolate Lava Cake</div>
+                </div>
+
+                <div class="product-card" data-category="cookies">
+                    <div class="img-placeholder">Img</div>
+                    <div class="card-text">Chocolate Chip Cookie</div>
+                </div>
+
+                <div class="product-card" data-category="pastries">
+                    <div class="img-placeholder">Img</div>
+                    <div class="card-text">Croissant</div>
+                </div>
+            
+            </div>
             
         </div>
 
         <div class="footer-bar">
 
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
