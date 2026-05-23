@@ -1,6 +1,5 @@
-const buttons = document.querySelectorAll('.productsNavigation-box','blogNavigation-box');
-const cards = document.querySelectorAll('.product-card','.blog-card');
-
+const buttons = document.querySelectorAll('.productsNavigation-box, .blogNavigation-box');
+const cards = document.querySelectorAll('.product-card, .blog-card');
 buttons.forEach(button => {
   button.addEventListener('click', (e) => {
     e.preventDefault();
