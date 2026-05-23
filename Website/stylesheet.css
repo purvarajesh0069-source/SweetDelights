@@ -55,6 +55,7 @@ html, body {
 .quickLinks-bar {
   background-color: #E8F8E8;
   height: 320px;
+  font-family: "Aptos", sans-serif;
 }
 
 .footer-bar {
